@@ -1,1 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-17T21:23:58+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Akshay Verma</title><subtitle>Personal website</subtitle><author><name>Akshay Verma</name></author><entry><title type="html">Coming Soon!</title><link href="http://localhost:4000/jekyll/update/coming-soon/" rel="alternate" type="text/html" title="Coming Soon!" /><published>2019-01-17T00:35:10+05:30</published><updated>2019-01-17T00:35:10+05:30</updated><id>http://localhost:4000/jekyll/update/coming-soon</id><content type="html" xml:base="http://localhost:4000/jekyll/update/coming-soon/"></content><author><name>Akshay Verma</name></author><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator>
+    <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml"/>
+    <link href="http://localhost:4000/" rel="alternate" type="text/html"/>
+    <updated>2019-01-18T18:00:13+05:30</updated>
+    <id>http://localhost:4000/feed.xml</id>
+    <title type="html">Akshay Verma</title>
+    <subtitle>Personal website</subtitle>
+    <author>
+        <name>Akshay Verma</name>
+    </author>
+    <entry>
+        <title type="html">Coming Soon!</title>
+        <link href="http://localhost:4000/jekyll/update/coming-soon/" rel="alternate" title="Coming Soon!" type="text/html"/>
+        <published>2019-01-17T00:35:10+05:30</published>
+        <updated>2019-01-17T00:35:10+05:30</updated>
+        <id>http://localhost:4000/jekyll/update/coming-soon</id>
+        <content type="html" xml:base="http://localhost:4000/jekyll/update/coming-soon/"/>
+        <author>
+            <name>Akshay Verma</name>
+        </author>
+        <summary type="html"/>
+    </entry>
+</feed>

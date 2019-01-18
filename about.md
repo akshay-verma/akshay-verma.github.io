@@ -1,21 +1,23 @@
 ---
 layout: single
+classes: wide
 title: "About Me"
 permalink: /about/
+author_profile: true
 ---
 
 Hi, I am Akshay Verma.
 
-I am currently doing my Masters in Computer Science from [University at Buffalo, New York](http://grad.buffalo.edu/programs/computer-science-and-engineering-ms.html) with GPA of 3.84. The expected date of graduation is May, 2020.
-Two broad areas that excites me the most are **Artificial Intelligence** and **Computer Vision**.
+I am currently doing my Masters in Computer Science from [University at Buffalo, New York](http://grad.buffalo.edu/programs/computer-science-and-engineering-ms.html) with specialization in **Artificial Intelligence**(Current GPA = 3.84). The expected date of graduation is May, 2020.
 
-In the past, I have worked as Tools Development Engineer at Nvidia. This is where I learned the most and fell in love with Python. Over the 3 years I worked in Nvidia, I got to work on different products such as [Nintendo Switch](https://www.nintendo.com/switch/), [Nvidia Shield TV](https://www.nvidia.com/en-us/shield/), and [Nvidia Drive Platform for Autonomous Driving](https://www.nvidia.com/en-gb/self-driving-cars/drive-platform/).
+In the past, I have worked as Tools Development Engineer at Nvidia. This is where I learned a lot and fell in love with Python. Over the 3 years I worked in Nvidia, I got to work on different products such as [Nintendo Switch](https://www.nintendo.com/switch/), [Nvidia Shield TV](https://www.nvidia.com/en-us/shield/), and [Nvidia Drive Platform for Autonomous Driving](https://www.nvidia.com/en-gb/self-driving-cars/drive-platform/).
+
 
 ## Skills
 
 As a result of my professional experience and personal curiosity, I have experience in working with multiple technologies. Some of which are listed below:
 
-**Languages**: Python | JavaScript | C | C++ <br><br>
+**Languages**: Python(Proficient) | JavaScript | C | C++ <br><br>
 **Tools and Frameworks**: OpenCV | Keras | Elasticsearch | Kibana | Logstash | Apace Kakfa | MySQL | Pandas | Numpy | Scikit-learn | JIRA | GIT | Jupyter <br><br>
 **Operating System**: Linux, Android
 

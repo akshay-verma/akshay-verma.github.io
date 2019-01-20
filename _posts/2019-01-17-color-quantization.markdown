@@ -31,7 +31,7 @@ Color quantization using K-means starts by randomly selecting *k* colors from th
 
 Enough with the theory, let us apply this on few images and see the results!
 
-![Chart](https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/chart.png "Comparison of image size after color quantization")
+![Chart](https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/chart.png "Comparison of image size after color quantization")
 
 | Name  | Original image size | Size after quantization(K=3)| K=5 | K=10 | K=20 |
 | ------------- | ------------- | --------------------------- | --------------------------- | --------------------------- | --------------------------- |
@@ -46,11 +46,31 @@ We can observe that we can achieve almost 50% compression of the original image 
 
 ## Result
 
-TBD. Display images here.
+<p style="text-align: center;"><strong>Original image of baboon</strong></p>
+<div style="text-align: center;">
+  <img src="https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon.png"
+     alt="Original image of baboon" height="50%" width="50%"/>
+</div>
+
+<p style="text-align: center;"><strong>Image after color quantization using 3 clusters (K=3)</strong></p>
+<div style="text-align: center;">
+  <img src="https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon_3.png"
+     alt="Original image of baboon" height="50%" width="50%"/>
+</div>
+
+<p style="text-align: center;"><strong>Image after color quantization using 20 clusters (K=20)</strong></p>
+<div style="text-align: center;">
+  <img src="https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon_20.png"
+     alt="Original image of baboon" height="50%" width="50%"/>
+</div>
+
+For more results, check the github repo [here](https://github.com/akshay-verma/Computer-Vision/tree/master/color_quantization).
+
 
 ## Code
 
-The code for main functions is given below. For full code, see [here](https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/k_means.py).
+The code for main functions is given below. For full code, see [here](https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/k_means.py). <br>
+Please note that this was an attempt to implement the process from scratch and hence the runtime is high. A better way would be to make use of numpy vectorization.
 
 ```python
 def performColorQuanitization(img, clusterCenter, K):
@@ -125,4 +145,4 @@ def updateColor(img, classificationVector, K):
 
 ## Conclusion
 
-Therefore, we can use color quantization to reduce the memory required by an image without loosing the visual appearance of the original image, which can prove useful on device with limited memory capacity.
+We can use color quantization to reduce the memory required by an image without loosing the visual appearance of the original image, which can prove useful on devices with limited memory capacity.

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-20T14:08:26+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Akshay Verma</title><subtitle>Personal website</subtitle><author><name>Akshay Verma</name></author><entry><title type="html">Color Quantization</title><link href="http://localhost:4000/2019/01/19/computer-vision/color-quantization/" rel="alternate" type="text/html" title="Color Quantization" /><published>2019-01-19T00:35:10+05:30</published><updated>2019-01-19T00:35:10+05:30</updated><id>http://localhost:4000/2019/01/19/computer-vision/color-quantization</id><content type="html" xml:base="http://localhost:4000/2019/01/19/computer-vision/color-quantization/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-21T00:57:51+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Akshay Verma</title><subtitle>Personal website</subtitle><author><name>Akshay Verma</name></author><entry><title type="html">Color Quantization</title><link href="http://localhost:4000/2019/01/19/computer-vision/color-quantization/" rel="alternate" type="text/html" title="Color Quantization" /><published>2019-01-19T00:35:10+05:30</published><updated>2019-01-19T00:35:10+05:30</updated><id>http://localhost:4000/2019/01/19/computer-vision/color-quantization</id><content type="html" xml:base="http://localhost:4000/2019/01/19/computer-vision/color-quantization/">&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
 &lt;p&gt;Color quantization is used to reduce the number of colors that are used to represent an image. The objective is to reduce the colors without affecting the visual appearance of the original image. However, some information is lost during the process and hence it is called as a lossy operation.&lt;/p&gt;
 
@@ -23,7 +23,7 @@
 
 &lt;p&gt;Enough with the theory, let us apply this on few images and see the results!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/chart.png&quot; alt=&quot;Chart&quot; title=&quot;Comparison of image size after color quantization&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/chart.png&quot; alt=&quot;Chart&quot; title=&quot;Comparison of image size after color quantization&quot; /&gt;&lt;/p&gt;
 
 &lt;table&gt;
   &lt;thead&gt;
@@ -78,11 +78,27 @@
 
 &lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
 
-&lt;p&gt;TBD. Display images here.&lt;/p&gt;
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Original image of baboon&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon.png&quot; alt=&quot;Original image of baboon&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Image after color quantization using 3 clusters (K=3)&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon_3.png&quot; alt=&quot;Original image of baboon&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p style=&quot;text-align: center;&quot;&gt;&lt;strong&gt;Image after color quantization using 20 clusters (K=20)&lt;/strong&gt;&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+  &lt;img src=&quot;https://github.com/akshay-verma/Computer-Vision/raw/master/color_quantization/baboon_20.png&quot; alt=&quot;Original image of baboon&quot; height=&quot;50%&quot; width=&quot;50%&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;For more results, check the github repo &lt;a href=&quot;https://github.com/akshay-verma/Computer-Vision/tree/master/color_quantization&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&quot;code&quot;&gt;Code&lt;/h2&gt;
 
-&lt;p&gt;The code for main functions is given below. For full code, see &lt;a href=&quot;https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/k_means.py&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The code for main functions is given below. For full code, see &lt;a href=&quot;https://github.com/akshay-verma/Computer-Vision/blob/master/color_quantization/k_means.py&quot;&gt;here&lt;/a&gt;. &lt;br /&gt;
+Please note that this was an attempt to implement the process from scratch and hence the runtime is high. A better way would be to make use of numpy vectorization.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;performColorQuanitization&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;clusterCenter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;K&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
     &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;
@@ -156,4 +172,4 @@
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
 
-&lt;p&gt;Therefore, we can use color quantization to reduce the memory required by an image without loosing the visual appearance of the original image, which can prove useful on device with limited memory capacity.&lt;/p&gt;</content><author><name>Akshay Verma</name></author><summary type="html">Introduction</summary></entry></feed>
+&lt;p&gt;We can use color quantization to reduce the memory required by an image without loosing the visual appearance of the original image, which can prove useful on devices with limited memory capacity.&lt;/p&gt;</content><author><name>Akshay Verma</name></author><summary type="html">Introduction</summary></entry></feed>
